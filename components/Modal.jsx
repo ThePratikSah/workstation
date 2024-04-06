@@ -19,7 +19,7 @@ function Modal() {
                 className="input input-bordered w-full"
               />
             </label>
-            <button className="btn btn-neutral">Submit</button>
+            <button className="btn">Submit</button>
             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
               ✕
             </button>
