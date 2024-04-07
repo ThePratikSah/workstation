@@ -1,33 +1,32 @@
-import Image from "next/image";
-
+/* eslint-disable @next/next/no-img-element */
 const workstations = [
   {
     title: "Software Developer Setup",
-    image: "/assets/featured-workstation.jpeg",
+    image: "./assets/featured-workstation.jpeg",
     width: 400,
     height: 600,
   },
   {
     title: "Software Developer Setup",
-    image: "/assets/workstation-developer.jpeg",
+    image: "./assets/workstation-developer.jpeg",
     width: 400,
     height: 600,
   },
   {
     title: "Music Producer Workstation",
-    image: "/assets/workstation-music.jpg",
+    image: "./assets/workstation-music.jpg",
     width: 800,
     height: 600,
   },
   {
     title: "Youtuber/Streamer Setup",
-    image: "/assets/workstation-streamer.jpeg",
+    image: "./assets/workstation-streamer.jpeg",
     width: 400,
     height: 300,
   },
   {
     title: "Gamer Setup",
-    image: "/assets/workstation-gamer.jpg",
+    image: "./assets/workstation-gamer.jpg",
     width: 400,
     height: 300,
   },
@@ -48,7 +47,7 @@ function Gallery() {
           //     className="rounded-lg object-cover shadow-xl hover:shadow-2xl"
           //   />
           // </div>
-          <Image
+          <img
             key={workstation.title}
             width={workstation.width}
             height={workstation.height}

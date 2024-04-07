@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 import Button from "./Button";
 
 function HeroSection() {
@@ -16,10 +16,10 @@ function HeroSection() {
           <Button style="btn-neutral" title={"Get Free Quote"} />{" "}
         </div>
         <div className="flex-shrink-0 mr-4 lg:mr-0">
-          <Image
+          <img
             width={800}
             height={500}
-            src="/assets/featured-workstation.jpeg"
+            src="./assets/featured-workstation.jpeg"
             alt="Hero Image"
             className="rounded-lg shadow-lg"
           />
